@@ -2,8 +2,8 @@ from globus_compute_sdk import Client, Executor
 import xarray as xr
 
 # Define UUIDs
-endpoint_uuid = "<your-endpoint-uuid>"
-function_uuid = "<your-ingest-wxt-uuid>"
+endpoint_uuid = 'a93bab84-bc75-43a0-8ab9-ba7a41a1a2d4'
+function_uuid = "093493c6-3786-4330-9ece-7efb5bb06116"
 
 # Create Globus SDK Executor (currently using your own user credentials)
 gcc = Client()
@@ -17,7 +17,7 @@ data = {
     "d": 1,
     "site": 'NU',
     "hours": 1,
-    "odir": "<your-output-path--must-be-an-existing-directory>"
+    "odir": "/home/rchard/src/CROCUS/output/"
 }
 
 # Start the task

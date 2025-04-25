@@ -42,7 +42,7 @@ globus-compute-endpoint==2.25.0
 globus-compute-sdk==2.25.0
 globus-identity-mapping==0.3.0
 globus-sdk==3.44.0
-h11==0.14.0
+h11==0.16.0
 h2==4.1.0
 hpack==4.0.0
 httpcore==1.0.5
